@@ -429,11 +429,23 @@ transition: 0.3s ease;
     transition: transform 0.3s ease-in-out; /* smooth hover effect */
 }
 
+
+
+.contact-section .contact-form textarea {
+    height: 100px;
+    padding: 12px;
+    resize: vertical;
+}
+
+
 /* Hover effect */
 .menu-item:hover .menu-imgage {
     transform: scale(1.05); /* zoom in on hover */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* optional shadow */
 }
+
+
+
 
 
 
